@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">English app</string>
+    <string name="title">Name</string>
+    <string name="word">Word</string>
+    <string name="sound">Sound</string>
+    <string name="imageDesc">Image</string>
+    <string name="appHeading">Animals</string>
+</resources>

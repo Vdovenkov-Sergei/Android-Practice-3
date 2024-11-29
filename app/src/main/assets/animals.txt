@@ -1,0 +1,10 @@
+Cat - [kæt] - кошка
+Cow - [kaʊ] - корова
+Dog - [dɒɡ] - собака
+Goat - [ɡəʊt] - коза
+Horse - [hɔːs] - лошадь
+Mouse - [maʊs] - мышь
+Parrot - [ˈpærət] - попугай
+Raccoon - [rəˈkuːn] - енот
+Sheep - [ʃiːp] - овца
+Wolf - [wʊlf] - волк

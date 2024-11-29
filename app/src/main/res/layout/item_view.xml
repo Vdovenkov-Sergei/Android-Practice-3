@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_item"
+    android:layout_margin="@dimen/margin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_margin="@dimen/margin"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/imageDesc" />
+
+    <RelativeLayout
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/margin" >
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/item_text_size"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/padding_text"
+            android:background="@drawable/border_text"
+            android:textStyle="bold|italic"/>
+
+        <LinearLayout
+            android:id="@+id/btnSounds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin">
+
+            <Button
+                android:id="@+id/buttonWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/word"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/button_text_size"/>
+
+            <Button
+                android:id="@+id/buttonSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sound"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/button_text_size"
+                android:layout_marginStart="@dimen/margin"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
